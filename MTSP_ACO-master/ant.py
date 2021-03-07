@@ -1,4 +1,4 @@
-0=from solution import Solution
+from solution import Solution
 import itertools
 import bisect
 import random

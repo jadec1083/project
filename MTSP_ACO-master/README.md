@@ -81,10 +81,16 @@ plt.show()
 ```
 
 
+# Instructions (for you Grace)
+
+- Go inside the folder and enter the virtual environment with `source env/bin/activate`
+- Create a virtual environment with `python main.py`
+
+
+
 # Thanks
 
 This repository refers to [acopy](https://github.com/rhgrant10/acopy).
 Please read this documentation and implemantiaon.
 
 If MTSP_ACO has bad implementation or issue, please feel free to contact me and issue.
-
