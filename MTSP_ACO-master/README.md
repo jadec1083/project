@@ -84,7 +84,7 @@ plt.show()
 # Instructions (for you Grace)
 
 - Go inside the folder and enter the virtual environment with `source env/bin/activate`
-- Create a virtual environment with `python main.py`
+- Run the file with `python main.py`
 
 
 
