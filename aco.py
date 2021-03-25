@@ -117,11 +117,12 @@ class _Ant(object):
                 break
         print("selected =", selected)
         print("allowed =", self.allowed)
-        self.allowed.remove(selected)
-        self.tabu.append(selected)
-        self.total_cost += self.graph.matrix[self.current[1]][selected[0]] + self.graph.matrix[selected[0]][selected[1]]
-        self.current = selected
-                
+        if selected in self.allowed:
+            self.allowed.remove(selected)
+            self.tabu.append(selected)
+            self.total_cost += self.graph.matrix[self.current[1]][selected[0]] + self.graph.matrix[selected[0]][selected[1]]
+            self.current = selected
+
 
     # noinspection PyUnusedLocal
     def _update_pheromone_delta(self):
